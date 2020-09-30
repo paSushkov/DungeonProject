@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &211491076234330030
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 341961597283253592, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1222203370430639655, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1222203370430639671, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220693729379, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220693729379, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220693729379, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220693729379, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220693729379, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220693729379, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220693729379, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220693729379, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220693729379, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220693729379, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220693729379, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220694154305, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220694154307, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_Name
+      value: Skeleton_Chained_Sitting_snaps010 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220694154307, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220694154311, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220694154313, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220694154315, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220694154317, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220694154319, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7092376220694154333, guid: c61a45fa0de6c494296fd2cc4d94154e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 23
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c61a45fa0de6c494296fd2cc4d94154e, type: 3}

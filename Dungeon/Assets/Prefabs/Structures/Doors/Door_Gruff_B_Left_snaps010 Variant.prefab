@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4530618802600088267
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4630191188559475142, guid: dd2e2150284470e4188a5ad41e8a21e6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630191188559475142, guid: dd2e2150284470e4188a5ad41e8a21e6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630191188559475142, guid: dd2e2150284470e4188a5ad41e8a21e6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630191188559475142, guid: dd2e2150284470e4188a5ad41e8a21e6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630191188559475142, guid: dd2e2150284470e4188a5ad41e8a21e6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630191188559475142, guid: dd2e2150284470e4188a5ad41e8a21e6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630191188559475142, guid: dd2e2150284470e4188a5ad41e8a21e6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630191188559475142, guid: dd2e2150284470e4188a5ad41e8a21e6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630191188559475142, guid: dd2e2150284470e4188a5ad41e8a21e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630191188559475142, guid: dd2e2150284470e4188a5ad41e8a21e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630191188559475142, guid: dd2e2150284470e4188a5ad41e8a21e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6044390763701190337, guid: dd2e2150284470e4188a5ad41e8a21e6,
+        type: 3}
+      propertyPath: m_Name
+      value: Door_Gruff_B_Left_snaps010 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6044390763701190337, guid: dd2e2150284470e4188a5ad41e8a21e6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dd2e2150284470e4188a5ad41e8a21e6, type: 3}
