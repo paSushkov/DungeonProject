@@ -17,7 +17,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 175202, guid: 0b487ad7ad16c664a8ca57cb78f041f1, type: 3}
       propertyPath: m_Name
-      value: Grave 18
+      value: Grave 18 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 175202, guid: 0b487ad7ad16c664a8ca57cb78f041f1, type: 3}
       propertyPath: m_Layer
@@ -82,6 +82,30 @@ PrefabInstance:
     - target: {fileID: 466020, guid: 0b487ad7ad16c664a8ca57cb78f041f1, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20535200, guid: 0b487ad7ad16c664a8ca57cb78f041f1, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.10248817
+      objectReference: {fileID: 0}
+    - target: {fileID: 20535200, guid: 0b487ad7ad16c664a8ca57cb78f041f1, type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.051636487
+      objectReference: {fileID: 0}
+    - target: {fileID: 20535200, guid: 0b487ad7ad16c664a8ca57cb78f041f1, type: 3}
+      propertyPath: m_LODs.Array.data[2].screenRelativeHeight
+      value: 0.0066181114
+      objectReference: {fileID: 0}
+    - target: {fileID: 20535200, guid: 0b487ad7ad16c664a8ca57cb78f041f1, type: 3}
+      propertyPath: m_LODs.Array.data[0].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 20535200, guid: 0b487ad7ad16c664a8ca57cb78f041f1, type: 3}
+      propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 20535200, guid: 0b487ad7ad16c664a8ca57cb78f041f1, type: 3}
+      propertyPath: m_LODs.Array.data[2].renderers.Array.data[0].renderer
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b487ad7ad16c664a8ca57cb78f041f1, type: 3}
