@@ -12,7 +12,7 @@ namespace Dungeon.Environment
         [SerializeField, Range(0, 1)] float _speed;
         private Projector _projector;
         private Material _projectorMaterial;
-        public int _targetColorIndex = 1;
+        private int _targetColorIndex = 1;
 
         #endregion
 
