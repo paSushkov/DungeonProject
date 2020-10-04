@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!54 &9080545123254556075
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867162779658437542}
+  serializedVersion: 2
+  m_Mass: 20
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1001 &7097952205482384936
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8892783299162964398, guid: c1dab5f1e19a7934bb90027e9278cd6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892783299162964398, guid: c1dab5f1e19a7934bb90027e9278cd6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892783299162964398, guid: c1dab5f1e19a7934bb90027e9278cd6b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892783299162964398, guid: c1dab5f1e19a7934bb90027e9278cd6b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892783299162964398, guid: c1dab5f1e19a7934bb90027e9278cd6b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892783299162964398, guid: c1dab5f1e19a7934bb90027e9278cd6b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892783299162964398, guid: c1dab5f1e19a7934bb90027e9278cd6b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892783299162964398, guid: c1dab5f1e19a7934bb90027e9278cd6b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892783299162964398, guid: c1dab5f1e19a7934bb90027e9278cd6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892783299162964398, guid: c1dab5f1e19a7934bb90027e9278cd6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892783299162964398, guid: c1dab5f1e19a7934bb90027e9278cd6b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892783299163135374, guid: c1dab5f1e19a7934bb90027e9278cd6b,
+        type: 3}
+      propertyPath: m_Name
+      value: Shield_Heater_02_snaps010 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892783299163135374, guid: c1dab5f1e19a7934bb90027e9278cd6b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 23
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c1dab5f1e19a7934bb90027e9278cd6b, type: 3}
+--- !u!1 &1867162779658437542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8892783299163135374, guid: c1dab5f1e19a7934bb90027e9278cd6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7097952205482384936}
+  m_PrefabAsset: {fileID: 0}
