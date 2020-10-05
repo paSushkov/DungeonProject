@@ -9,10 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 645173640338582613}
-  - component: {fileID: 4134157045015522829}
   - component: {fileID: 4485023813662575688}
   - component: {fileID: 1762751052923130045}
-  m_Layer: 0
+  - component: {fileID: 7466332608868700054}
+  - component: {fileID: 4324730138639490381}
+  m_Layer: 26
   m_Name: Trap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,24 +35,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4134157045015522829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 437027308305505420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 879a71d4766189349a3d7942db0e6b4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _triggerLayerMask:
-    serializedVersion: 2
-    m_Bits: 536870912
-  _enemyDestructionTime: 1
-  _explosionParticles: {fileID: 8508921708528445682, guid: 86a10d78890bc2143882cd136de98453,
-    type: 3}
 --- !u!54 &4485023813662575688
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -83,6 +66,32 @@ MonoBehaviour:
   lifeTime: 5
   shouldDestroyOnAwake: 1
   shouldDestroyOnStart: 0
+--- !u!114 &7466332608868700054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437027308305505420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cadad065b9f9c541965a74685d3b996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4324730138639490381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437027308305505420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 792a4b1e0dd6c694696ccc2642a22c58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _triggerListener: {fileID: 7466332608868700054}
+  _damage: 10
 --- !u!1 &8165088249043738522
 GameObject:
   m_ObjectHideFlags: 0
@@ -95,7 +104,7 @@ GameObject:
   - component: {fileID: 3810548730249599976}
   - component: {fileID: 8977428208212441626}
   - component: {fileID: 2956216612282765579}
-  m_Layer: 0
+  m_Layer: 26
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}

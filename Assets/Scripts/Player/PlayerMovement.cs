@@ -1,4 +1,5 @@
 ﻿using Dungeon.Managers;
+using Dungeon.Spells;
 using UnityEngine;
 
 
@@ -65,12 +66,6 @@ namespace Dungeon.Player
         }
 
         private void OnDisable()
-        {
-            InputManager.Instance.AxisInputDone -= GetAxisInput;
-            InputManager.Instance.MouseInputDone -= GetMouseMoveInput;
-        }
-
-        private void OnDestroy()
         {
             InputManager.Instance.AxisInputDone -= GetAxisInput;
             InputManager.Instance.MouseInputDone -= GetMouseMoveInput;

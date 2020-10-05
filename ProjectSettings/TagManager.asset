@@ -22,7 +22,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Player
   - 
   - 
   - 
@@ -38,7 +38,7 @@ TagManager:
   - 
   - Enemy
   - 
-  - 
+  - Fog
   m_SortingLayers:
   - name: Fire
     uniqueID: 3804908061

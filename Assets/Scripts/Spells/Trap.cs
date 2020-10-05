@@ -3,7 +3,7 @@
 
 namespace Dungeon.Spells
 {
-    public sealed class Trap : MonoBehaviour
+    public sealed class AOE : MonoBehaviour
     {
         #region PrivateData
 

@@ -1,4 +1,5 @@
 ﻿using Dungeon.Managers;
+using Dungeon.Spells;
 using UnityEngine;
 
 
@@ -32,11 +33,6 @@ namespace Dungeon.Player
             InputManager.Instance.ShootInputDone -= Shoot;
         }
 
-        private void OnDestroy()
-        {
-            InputManager.Instance.ShootInputDone -= Shoot;
-        }
-
         #endregion
 
 
@@ -44,12 +40,17 @@ namespace Dungeon.Player
 
         private void Shoot()
         {
-            var myProjectile = Instantiate(_projectile, _cameraTransform.position + _cameraTransform.forward,
-                _cameraTransform.rotation);
+            var myProjectile = Instantiate(_projectile, _cameraTransform.position + _cameraTransform.forward*2,
+                Quaternion.identity);
             if (myProjectile.TryGetComponent(out Rigidbody projectileRb))
             {
                 projectileRb.AddForce(_cameraTransform.forward * _shootForce, ForceMode.Impulse);
             }
+            if (myProjectile.TryGetComponent(out Bomb bomb))
+            {
+                bomb.velocity = _cameraTransform.forward * _shootForce;
+            }
+            
         }
 
         #endregion
