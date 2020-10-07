@@ -1,16 +1,26 @@
-﻿using UnityEngine;
+﻿using Dungeon.AI;
+using Dungeon.Common;
+using UnityEngine;
 
 namespace Dungeon.Managers
 {
-    public sealed class GameManager : MonoBehaviour
+    public sealed class GameManager : Singleton<GameManager>
     {
         #region PrivateData
 
+        [SerializeField] private PatrolPointsProvider patrolPointsProvider;
         private bool _isCursorLocked = true;
 
         #endregion
 
+        
+        #region Properties
 
+        public PatrolPointsProvider PointsProvider => patrolPointsProvider;
+
+        #endregion
+        
+        
         #region UnityMethods
 
         private void Awake()

@@ -1,5 +1,62 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3146465230645866561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9100272434424597154}
+  - component: {fileID: 3283648244591046885}
+  - component: {fileID: 8719555027513392577}
+  m_Layer: 11
+  m_Name: Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9100272434424597154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3146465230645866561}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.44, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4837884849103437316}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3283648244591046885
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3146465230645866561}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.79, y: 3, z: 5.01}
+  m_Center: {x: 0, y: 1.44, z: 0}
+--- !u!114 &8719555027513392577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3146465230645866561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cadad065b9f9c541965a74685d3b996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3228648131032698982
 GameObject:
   m_ObjectHideFlags: 0
@@ -9,8 +66,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4837884849103437316}
-  - component: {fileID: 97193523228768795}
-  - component: {fileID: 4970560763510123168}
   - component: {fileID: 2378241799939194624}
   m_Layer: 21
   m_Name: DoorPair
@@ -32,34 +87,10 @@ Transform:
   m_Children:
   - {fileID: 3371737990100995625}
   - {fileID: 5358961137815613788}
+  - {fileID: 9100272434424597154}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!65 &97193523228768795
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3228648131032698982}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.79, y: 3, z: 5.01}
-  m_Center: {x: 0, y: 1.44, z: 0}
---- !u!114 &4970560763510123168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3228648131032698982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cadad065b9f9c541965a74685d3b996, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2378241799939194624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,8 +105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _leftDoor: {fileID: 3371737990100995625}
   _rightDoor: {fileID: 5358961137815613788}
-  _shouldBeClosed: 1
-  _openState: 0
+  _triggerListener: {fileID: 8719555027513392577}
   speed: 0.2
 --- !u!1001 &3801206664326763089
 PrefabInstance:

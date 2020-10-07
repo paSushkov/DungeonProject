@@ -45,6 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _enemyPrefabs:
   - {fileID: 6981766293698842259, guid: 2ae3bb925a2fb784d9c081990cb2ab20, type: 3}
+  spawnOnStart: 10
   spawnActive: 1
   newEnemySpawnTime: 30
   spawnPointHolder: {fileID: 0}

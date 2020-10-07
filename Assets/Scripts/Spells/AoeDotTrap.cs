@@ -16,7 +16,7 @@ public class AoeDotTrap : AOESpell
 
     protected override void SpellEffect(Collider targetCollider)
     {
-        if (!targetCollider.transform.TryGetComponent(out CharacteristicHolderBase statHolder)) return;
+        if (!targetCollider.transform.root.TryGetComponent(out CharacteristicHolderBase statHolder)) return;
 
         if (statHolder.TryGetCharacteristic(CharacteristicType.Health, out CharacteristicBase health))
         {

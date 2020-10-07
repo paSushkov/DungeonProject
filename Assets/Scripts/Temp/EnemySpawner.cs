@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 
 namespace Dungeon.Temp
@@ -10,6 +11,7 @@ namespace Dungeon.Temp
         #region PrivateData
 
         [SerializeField] private List<GameObject> _enemyPrefabs = new List<GameObject>();
+        [SerializeField] private int spawnOnStart;
         private IEnumerator _cachedDelay;
         private string _cachedCoroutineName;
 
@@ -25,12 +27,15 @@ namespace Dungeon.Temp
 
         #region UnityMethods
 
-        private void Awake()
+        private void Start()
         {
             _cachedDelay = new WaitForSecondsRealtime(newEnemySpawnTime);
             _cachedCoroutineName = nameof(SpawnRandomEnemy);
             StartCoroutine(_cachedCoroutineName);
-            SpawnEnemy();
+            for (int i = 0; i < spawnOnStart; i++)
+            {
+                SpawnEnemy();
+            }
         }
 
         #endregion
@@ -54,7 +59,10 @@ namespace Dungeon.Temp
         private void SpawnEnemy()
         {
             var spawnPosition = spawnPointHolder.GetRandomSpawnPointPosition();
-            Instantiate(_enemyPrefabs[Random.Range(0, _enemyPrefabs.Capacity)], spawnPosition, Quaternion.identity);
+            var enemy = Instantiate(_enemyPrefabs[Random.Range(0, _enemyPrefabs.Capacity)], spawnPosition,
+                Quaternion.identity);
+            if (enemy.TryGetComponent(out NavMeshAgent agent))
+                agent.avoidancePriority = 50 + Random.Range(0, 15);
         }
 
         #endregion

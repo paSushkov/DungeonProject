@@ -19,7 +19,48 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a252d0e4-d574-46bb-ad1a-62ccb198020f" name="Default Changelist" comment="" />
+    <list default="true" id="a252d0e4-d574-46bb-ad1a-62ccb198020f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DungeonProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonProject/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DungeonProject/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonProject/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DungeonProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Hands.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Hands.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Projector/ProjectorMagicCircleEvil.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Projector/ProjectorMagicCircleEvil.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Projector/ProjectorMagicCircleSacred.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Projector/ProjectorMagicCircleSacred.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Projector/ProjectorMagicText1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Projector/ProjectorMagicText1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Projector/ProjectorMagicText2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Projector/ProjectorMagicText2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Projector/ProjectorMagicText3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Projector/ProjectorMagicText3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Projector/ProjectorMagicText4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Projector/ProjectorMagicText4.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Meshes/Cylinder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Meshes/Cylinder.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rooms/RoomsVariants/Corridor 3-1 Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rooms/RoomsVariants/Corridor 3-1 Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rooms/RoomsVariants/Room2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rooms/RoomsVariants/Room2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spells/PoisonZone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Spells/PoisonZone.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Structures/Doors/DoorPair.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Structures/Doors/DoorPair.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Temp/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Temp/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Temp/EnemySpawner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Temp/EnemySpawner.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Temp/Projectile 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Temp/Projectile 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Temp/Projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Temp/Projectile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Temp/Turret.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Temp/Turret.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Profiles/DefaultProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Profiles/DefaultProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/Turret.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/Turret.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Environment/DoorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Environment/DoorController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ManagersAndControllers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ManagersAndControllers/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ManagersAndControllers/InputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ManagersAndControllers/InputManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spells/AoeDotTrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spells/AoeDotTrap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spells/Bomb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spells/Bomb.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Temp/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Temp/EnemySpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Temp/SpawnPointHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Temp/SpawnPointHolder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UMotionEditor/Data/EditorStates.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UMotionEditor/Data/EditorStates.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,30 +70,37 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spells/Enums/SpellEffectType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/Новая папка (4)/Scripts/Spells/Bomb.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/WalkingEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/TriggerListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spells/Bomb.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Potions/HealingVial.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/Новая папка (4)/Scripts/Spells/TrapDamageSpell.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A979F18D-51AF-4117-9D12-B797E8C5BE14/16/d14b8906/Coroutine.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Handlers/TriggerEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/MinMaxCurrent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spells/Enums/SpellType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03035303-2B91-4045-A0B9-6BEA329B98D3/01/900123e5/NavMeshAgent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StatsAndCharacteristics/CharacteristicHolderBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spells/AOESpell.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StatsAndCharacteristics/Enums/CharacteristicType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Enums/AIState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Environment/DoorController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spells/Enums/SpellEffectType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spells/Bomb.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/PatrolPointsProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A979F18D-51AF-4117-9D12-B797E8C5BE14/16/d14b8906/Coroutine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Handlers/TriggerEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/MinMaxCurrent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Turret.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/MoveSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/RigidbodyCharacterController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StatsAndCharacteristics/CharacteristicBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/hw4_sushkov/Scripts/AI/WalkingEnemy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StatsAndCharacteristics/Handlers/CharacteristicCurrentChanged.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spells/AoeDotTrap.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StatsAndCharacteristics/Enums/CharacteristicType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/SimpleStatsDisplay.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Environment/DoorController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/StatsAndCharacteristics/Enums/CharacteristicType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StatsAndCharacteristics/Handlers/MinMaxCharactristicChanged.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StatsAndCharacteristics/Handlers/CharacteristicCurrentChanged.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Environment/ProjectorColorBlender.cs" />
@@ -62,25 +110,48 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Handlers/TriggerEventHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Interfaces/ITriggerListenerSubscriber.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spells/Spell.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Spells/Enums/SpellEffectType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spells/Enums/SpellType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/TriggerListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StatsAndCharacteristics/CharacteristicRegeneratable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spells/SpellBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spells/DOTTrap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spells/AOEDamageOverTime.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spells/AOEDamageSpell.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spells/TrapDamageSpell.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Spells/AoeDotTrap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/SimpleStatsDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerShooter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spells/AOESpell.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Spells/Bomb.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/DoorController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Turret.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Potions/HealingVial.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spells/Trap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/RIgidbodyCharacterController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/HumanoidMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/CameraMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spells/AoeDotTrap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spells/Enums/SpellEffectType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ManagersAndControllers/KeyEventData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ManagersAndControllers/KeyAssignment.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ManagersAndControllers/KeyState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spells/ProjectileTrap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ManagersAndControllers/InputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ManagersAndControllers/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/CameraCollision.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/CameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/MoveSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Enums/AIState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/EnemyBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Temp/SpawnPointHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Temp/EnemySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/RigidbodyCharacterController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/PatrolPointsProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/DoorController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/WalkingEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/TriggerListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/Turret.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spells/Bomb.cs" />
+        <option value="$USER_HOME$/Desktop/hw4_sushkov/Scripts/AI/WalkingEnemy.cs" />
       </list>
     </option>
   </component>
@@ -90,6 +161,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995976" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30008045" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -134,6 +207,10 @@
       <workItem from="1601807236091" duration="35628000" />
       <workItem from="1601886142799" duration="1152000" />
       <workItem from="1601888160225" duration="608000" />
+      <workItem from="1602006232758" duration="10212000" />
+      <workItem from="1602017032265" duration="10836000" />
+      <workItem from="1602028857108" duration="34577000" />
+      <workItem from="1602102430518" duration="1048000" />
     </task>
     <servers />
   </component>
@@ -158,13 +235,77 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="2517" height="523" key="GridCell.Tab.0.bottom" timestamp="1602017012141">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.0.bottom/3840.196.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1602017012141" />
+    <state width="2517" height="523" key="GridCell.Tab.0.center" timestamp="1602017012141">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.0.center/3840.196.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1602017012141" />
+    <state width="2517" height="523" key="GridCell.Tab.0.left" timestamp="1602017012141">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.0.left/3840.196.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1602017012141" />
+    <state width="2517" height="523" key="GridCell.Tab.0.right" timestamp="1602017012141">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.0.right/3840.196.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1602017012141" />
+    <state width="2517" height="523" key="GridCell.Tab.1.bottom" timestamp="1602017012142">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.1.bottom/3840.196.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1602017012142" />
+    <state width="2517" height="523" key="GridCell.Tab.1.center" timestamp="1602017012141">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.1.center/3840.196.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1602017012141" />
+    <state width="2517" height="523" key="GridCell.Tab.1.left" timestamp="1602017012141">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.1.left/3840.196.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1602017012141" />
+    <state width="2517" height="523" key="GridCell.Tab.1.right" timestamp="1602017012141">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.1.right/3840.196.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1602017012141" />
+    <state width="2517" height="523" key="GridCell.Tab.2.bottom" timestamp="1602017012142">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.2.bottom/3840.196.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1602017012142" />
+    <state width="2517" height="523" key="GridCell.Tab.2.center" timestamp="1602017012142">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.2.center/3840.196.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1602017012142" />
+    <state width="2517" height="523" key="GridCell.Tab.2.left" timestamp="1602017012142">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.2.left/3840.196.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1602017012142" />
+    <state width="2517" height="523" key="GridCell.Tab.2.right" timestamp="1602017012142">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.2.right/3840.196.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1602017012142" />
+    <state width="2517" height="523" key="GridCell.Tab.3.bottom" timestamp="1602017012142">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.3.bottom/3840.196.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1602017012142" />
+    <state width="2517" height="523" key="GridCell.Tab.3.center" timestamp="1602017012142">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.3.center/3840.196.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1602017012142" />
+    <state width="2517" height="523" key="GridCell.Tab.3.left" timestamp="1602017012142">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.3.left/3840.196.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1602017012142" />
+    <state width="2517" height="523" key="GridCell.Tab.3.right" timestamp="1602017012142">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state width="2517" height="523" key="GridCell.Tab.3.right/3840.196.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1602017012142" />
     <state x="1057" y="407" key="RiderGenerateDialog" timestamp="1601875523449">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
     <state x="1057" y="407" key="RiderGenerateDialog/3840.196.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1601875523449" />
-    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup" timestamp="1601863236632">
+    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup" timestamp="1602039083039">
       <screen x="0" y="0" width="2560" height="1409" />
     </state>
-    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup/3840.196.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1601863236632" />
+    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup/3840.196.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1602039083039" />
   </component>
 </project>

@@ -14,6 +14,7 @@ namespace Dungeon.Managers
 
         public delegate void ShootProcessor();
 
+
         public event AxisInputProcessor AxisInputDone;
         public event MouseMoveProcessor MouseInputDone;
         public event ShootProcessor ShootInputDone;

@@ -4,7 +4,6 @@ using UnityEngine;
 
 namespace Dungeon.AI
 {
-    [RequireComponent(typeof(TriggerListener))]
     public class Turret : MonoBehaviour, ITriggerListenerSubscriber
     {
         #region PrivateData
@@ -16,7 +15,7 @@ namespace Dungeon.AI
         [SerializeField] private float _missFactor;
         [SerializeField] private float _reloadTime = 2f;
         [SerializeField] private float _reloadTimer;
-        private TriggerListener _triggerListener;
+        [SerializeField] private TriggerListener _triggerListener;
         private bool _isSubscribedToTrigger;
         private Transform _targetTransform;
 
@@ -30,11 +29,6 @@ namespace Dungeon.AI
 
 
         #region UnityMethods
-
-        private void Awake()
-        {
-            TryGetComponent(out _triggerListener);
-        }
 
         private void OnEnable()
         {
@@ -55,24 +49,33 @@ namespace Dungeon.AI
                 AimToTarget(_targetTransform);
                 TryShoot();
             }
+            else
+            {
+                float angle = Mathf.MoveTowardsAngle(_head.eulerAngles.x, 0f, rotationAngles * Time.deltaTime);
+                _head.eulerAngles = new Vector3(angle, _head.eulerAngles.y, _head.eulerAngles.z);
+
+                _head.Rotate(0f,  rotationAngles * Time.fixedDeltaTime, 0f);
+            }
         }
 
 
         #region Methods
 
-        private void ReturnToWarden(Collider potencialTarget)
+        private void ReturnToWarden(Collider potentialTarget)
         {
-            if (potencialTarget.gameObject.CompareTag("Player"))
+            if (potentialTarget.transform == _targetTransform)
             {
                 _targetTransform = null;
             }
         }
 
-        private void GetTarget(Collider potencialTarget)
+        private void GetTarget(Collider potentialTarget)
         {
-            if (potencialTarget.gameObject.CompareTag("Player"))
+            Debug.Log(potentialTarget.tag);
+            if (potentialTarget.gameObject.CompareTag("Player") ||
+                potentialTarget.gameObject.CompareTag("Enemy"))
             {
-                _targetTransform = potencialTarget.transform;
+                _targetTransform = potentialTarget.transform;
             }
         }
 
@@ -102,17 +105,18 @@ namespace Dungeon.AI
                             Random.Range(-_missFactor, _missFactor),
                             Random.Range(-_missFactor, _missFactor),
                             Random.Range(-_missFactor, _missFactor));
-                        
+
                         bomb.velocity = _head.forward * _shootForce;
-                        
+
                         if (Vector3.Dot(_head.forward, randomVector) < 0f)
                             _missFactor *= -1f;
                         bomb.velocity += randomVector;
                     }
+
                     _reloadTimer = 0f;
                 }
             }
-            else if (_reloadTimer < _reloadTime || Mathf.Approximately(_reloadTimer , _reloadTime))
+            else if (_reloadTimer < _reloadTime || Mathf.Approximately(_reloadTimer, _reloadTime))
             {
                 _reloadTimer += Time.fixedDeltaTime;
             }
@@ -127,6 +131,7 @@ namespace Dungeon.AI
             if (_isSubscribedToTrigger || triggerListener == null)
                 return;
             _triggerListener.EnterTrigger += GetTarget;
+            _triggerListener.StayingInTrigger += GetTarget;
             _triggerListener.ExitTrigger += ReturnToWarden;
         }
 
@@ -140,6 +145,7 @@ namespace Dungeon.AI
             }
 
             _triggerListener.EnterTrigger -= GetTarget;
+            _triggerListener.StayingInTrigger -= GetTarget;
             _triggerListener.ExitTrigger -= ReturnToWarden;
         }
 

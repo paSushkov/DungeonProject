@@ -1,17 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &3741185059712593039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1888202807737846405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cadad065b9f9c541965a74685d3b996, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3741185057938010901
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,7 +281,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3741185058042766631}
   - component: {fileID: 3741185058042766624}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: PoisonZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -330,7 +318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e08570695739aa4683f852f91914e96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _triggerListener: {fileID: 3741185059712593039}
+  _triggerListener: {fileID: 705834791}
   _damage: 10
 --- !u!1 &3741185059225520641
 GameObject:
@@ -341,7 +329,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3741185059225520640}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -705,11 +693,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3569783440823091709, guid: 386c093331fe6914883e9cc18631dc3f,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7832030038872720978, guid: 386c093331fe6914883e9cc18631dc3f,
         type: 3}
       propertyPath: m_Mesh
@@ -722,15 +705,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 386c093331fe6914883e9cc18631dc3f, type: 3}
---- !u!1 &1888202807737846405 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3017241937030990125, guid: 386c093331fe6914883e9cc18631dc3f,
-    type: 3}
-  m_PrefabInstance: {fileID: 3741185059008857000}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1779064375452619517 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3124330885019537749, guid: 386c093331fe6914883e9cc18631dc3f,
     type: 3}
   m_PrefabInstance: {fileID: 3741185059008857000}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &705834791 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3741185059712593039, guid: 386c093331fe6914883e9cc18631dc3f,
+    type: 3}
+  m_PrefabInstance: {fileID: 3741185059008857000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cadad065b9f9c541965a74685d3b996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

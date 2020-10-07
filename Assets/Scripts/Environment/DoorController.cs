@@ -19,7 +19,7 @@ namespace Dungeon.Environment
         private Quaternion leftDoorOpenState;
         private Quaternion rightDoorOpenState;
         private WaitForFixedUpdate _cachedWaitForFixedUpdate;
-        private TriggerListener _triggerListener;
+        [SerializeField]private TriggerListener _triggerListener;
         private bool _isSubscribedToTrigger;
 
 
@@ -54,8 +54,6 @@ namespace Dungeon.Environment
             rightDoorOpenState = _rightDoorClosedState * Quaternion.Euler(0f, 75f, 0f);
             
             _cachedWaitForFixedUpdate = new WaitForFixedUpdate();
-            if (!TryGetComponent(out _triggerListener))
-                Debug.LogWarning("Cant find TriggerListener!", gameObject);
         }
 
         #endregion

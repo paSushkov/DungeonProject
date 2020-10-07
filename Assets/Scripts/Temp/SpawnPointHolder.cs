@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 // TODO:
@@ -9,10 +10,28 @@ using UnityEngine;
 
 public class SpawnPointHolder : MonoBehaviour
 {
-    public List<Transform> spawnPoints = new List<Transform>();
+    
+    #region PrivateData
+
+    public List<Transform> _spawnPoints;
+
+    #endregion
+
+
+    #region MyRegion
+
+    private void Awake()
+    {
+        Transform[] allTransforms = GetComponentsInChildren<Transform>(true);
+        _spawnPoints = allTransforms.ToList();
+        _spawnPoints.RemoveAt(0);
+    }
+
+    #endregion
+    
 
     public Vector3 GetRandomSpawnPointPosition()
     {
-        return spawnPoints[Random.Range(0, spawnPoints.Capacity)].position;
+        return _spawnPoints[Random.Range(0, _spawnPoints.Count)].position;
     }
 }

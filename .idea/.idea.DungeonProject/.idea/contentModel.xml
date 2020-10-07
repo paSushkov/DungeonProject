@@ -46,7 +46,13 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AI" t="Include">
+            <e p="EnemyBase.cs" t="Include" />
+            <e p="Enums" t="Include">
+              <e p="AIState.cs" t="Include" />
+            </e>
+            <e p="PatrolPointsProvider.cs" t="Include" />
             <e p="Turret.cs" t="Include" />
+            <e p="WalkingEnemy.cs" t="Include" />
           </e>
           <e p="Common" t="Include">
             <e p="Handlers" t="Include">
@@ -71,8 +77,12 @@
             <e p="InputManager.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
-            <e p="PlayerMovement.cs" t="Include" />
+            <e p="AnimationController.cs" t="Include" />
+            <e p="CameraCollision.cs" t="Include" />
+            <e p="CameraFollow.cs" t="Include" />
+            <e p="MoveSettings.cs" t="Include" />
             <e p="PlayerShooter.cs" t="Include" />
+            <e p="RIgidbodyCharacterController.cs" t="Include" />
           </e>
           <e p="Potions" t="Include">
             <e p="HealingVial.cs" t="Include" />
@@ -434,6 +444,11 @@
               <e p="Grave_18" t="Include">
                 <e p="Readme.txt" t="Include" />
               </e>
+            </e>
+          </e>
+          <e p="HandPainted Lava Textures" t="Include">
+            <e p="Documentation" t="Include">
+              <e p="Documentation.txt" t="Include" />
             </e>
           </e>
           <e p="RunemarkStudio" t="Include">

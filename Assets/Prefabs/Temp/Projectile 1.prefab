@@ -159,7 +159,7 @@ MonoBehaviour:
     m_Bits: 1048576
   _bounceLayerMask:
     serializedVersion: 2
-    m_Bits: 2716862263
+    m_Bits: 569442816
   _trap: {fileID: 437027308305505420, guid: e56054c4679d0f74ebe09cf70ca961fb, type: 3}
   velocity: {x: 0, y: 0, z: 0}
 --- !u!54 &1590027897469179240

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Shootable
   - Fire
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -18,12 +19,12 @@ TagManager:
   - Lighting
   - Ground
   - Postprocessing
-  - 
+  - Triggers
   - 
   - 
   - 
   - Player
-  - 
+  - PlayerCollider
   - 
   - 
   - 

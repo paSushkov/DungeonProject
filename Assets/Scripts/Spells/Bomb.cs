@@ -41,7 +41,7 @@ namespace Dungeon.Spells
 
         private void OnCollisionEnter(Collision other)
         {
-            if (_spawnLayerMask == (_spawnLayerMask | (1 << other.transform.GetComponent<Collider>().gameObject.layer)))
+            if (_spawnLayerMask == (_spawnLayerMask | (1 << other.gameObject.layer)))
             {
                 // WRONG!:
                 var trapRotation = Quaternion.Euler(0, transform.rotation.eulerAngles.y, 0);
@@ -62,7 +62,7 @@ namespace Dungeon.Spells
             var magnitude = direction.magnitude;
             _ray = new Ray(from, direction);
 
-            if (Physics.Raycast(_ray, out _hit, magnitude, _bounceLayerMask))
+            if (Physics.Raycast(_ray, out _hit, magnitude, _bounceLayerMask, QueryTriggerInteraction.Ignore))
             {
                 var reflectDistance = direction.magnitude - _hit.distance;
                 direction = Vector3.Reflect(direction, _hit.normal);
@@ -74,10 +74,9 @@ namespace Dungeon.Spells
                     // WRONG!:
                     Instantiate(_trap, _hit.point, Quaternion.identity);
                     bounces++;
-                if (bounces >= 3)
-                    Destroy(gameObject);
+                    if (bounces >= 3)
+                        Destroy(gameObject);
                 }
-
 
 
                 CheckForCollisionsAndMove(_hit.point, reflectVector);
