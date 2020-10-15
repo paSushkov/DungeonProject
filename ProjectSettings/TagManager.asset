@@ -7,6 +7,10 @@ TagManager:
   - Shootable
   - Fire
   - Enemy
+  - DoorTrigger
+  - DoorArea
+  - effect
+  - TestCube
   layers:
   - Default
   - TransparentFX
@@ -24,10 +28,10 @@ TagManager:
   - 
   - 
   - Player
-  - PlayerCollider
   - 
   - 
   - 
+  - Doors
   - Floor
   - Walls
   - Ceiling
@@ -38,7 +42,7 @@ TagManager:
   - 
   - 
   - Enemy
-  - 
+  - Turrets
   - Fog
   m_SortingLayers:
   - name: Fire

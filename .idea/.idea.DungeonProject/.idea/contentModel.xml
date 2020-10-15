@@ -8,6 +8,12 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CursorsAndCrosshairs" t="Include">
+          <e p="CursorChanger.cs" t="Include" />
+        </e>
+        <e p="Editor" t="Include">
+          <e p="CurvesUtilityEditor.cs" t="Include" />
+        </e>
         <e p="Plugins" t="Include">
           <e p="Sirenix" t="Include">
             <e p="Demos" t="Include">
@@ -44,80 +50,127 @@
             </e>
           </e>
         </e>
+        <e p="Prefabs" t="Include">
+          <e p="Consumables" t="Include">
+            <e p="ManaVial.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Samples" t="Include">
+          <e p="CurvesLinesUtility" t="Include">
+            <e p="1.0.0" t="Include">
+              <e p="Sample" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="LightningConroller.cs" t="Include" />
+                  <e p="Rotator.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
-          <e p="AI" t="Include">
-            <e p="EnemyBase.cs" t="Include" />
-            <e p="Enums" t="Include">
-              <e p="AIState.cs" t="Include" />
+          <e p="Runtime" t="Include">
+            <e p="AI" t="Include">
+              <e p="EnemyAnimationController.cs" t="Include" />
+              <e p="EnemyBase.cs" t="Include" />
+              <e p="EnemyMeleeAttack.cs" t="Include" />
+              <e p="EnemyStateBase.cs" t="Include" />
+              <e p="Enums" t="Include">
+                <e p="AIState.cs" t="Include" />
+              </e>
+              <e p="PatrolPointsProvider.cs" t="Include" />
+              <e p="Turret.cs" t="Include" />
+              <e p="WalkingEnemy.cs" t="Include" />
             </e>
-            <e p="PatrolPointsProvider.cs" t="Include" />
-            <e p="Turret.cs" t="Include" />
-            <e p="WalkingEnemy.cs" t="Include" />
-          </e>
-          <e p="Common" t="Include">
-            <e p="Handlers" t="Include">
-              <e p="TriggerEventHandler.cs" t="Include" />
+            <e p="CharactersStates" t="Include">
+              <e p="JumpPrepare.cs" t="Include" />
+              <e p="JumpStart.cs" t="Include" />
+              <e p="Landing.cs" t="Include" />
             </e>
-            <e p="Interfaces" t="Include">
-              <e p="ITriggerListenerSubscriber.cs" t="Include" />
+            <e p="Common" t="Include">
+              <e p="Handlers" t="Include">
+                <e p="TriggerEventHandler.cs" t="Include" />
+              </e>
+              <e p="Interfaces" t="Include">
+                <e p="ITriggerListenerSubscriber.cs" t="Include" />
+              </e>
+              <e p="MinMaxCurrent.cs" t="Include" />
+              <e p="RagdollActivator.cs" t="Include" />
+              <e p="SelfDestructor.cs" t="Include" />
+              <e p="Singleton.cs" t="Include" />
+              <e p="TriggerListener.cs" t="Include" />
             </e>
-            <e p="MinMaxCurrent.cs" t="Include" />
-            <e p="SelfDestructor.cs" t="Include" />
-            <e p="Singleton.cs" t="Include" />
-            <e p="TriggerListener.cs" t="Include" />
-          </e>
-          <e p="Environment" t="Include">
-            <e p="DoorController.cs" t="Include" />
-            <e p="LightTrembler.cs" t="Include" />
-            <e p="ProjectorColorBlender.cs" t="Include" />
-            <e p="Rotator.cs" t="Include" />
-          </e>
-          <e p="ManagersAndControllers" t="Include">
-            <e p="GameManager.cs" t="Include" />
-            <e p="InputManager.cs" t="Include" />
-          </e>
-          <e p="Player" t="Include">
-            <e p="AnimationController.cs" t="Include" />
-            <e p="CameraCollision.cs" t="Include" />
-            <e p="CameraFollow.cs" t="Include" />
-            <e p="MoveSettings.cs" t="Include" />
-            <e p="PlayerShooter.cs" t="Include" />
-            <e p="RIgidbodyCharacterController.cs" t="Include" />
-          </e>
-          <e p="Potions" t="Include">
-            <e p="HealingVial.cs" t="Include" />
-          </e>
-          <e p="Spells" t="Include">
-            <e p="AoeDotTrap.cs" t="Include" />
-            <e p="AOESpell.cs" t="Include" />
-            <e p="Bomb.cs" t="Include" />
-            <e p="Enums" t="Include">
-              <e p="SpellEffectType.cs" t="Include" />
-              <e p="SpellType.cs" t="Include" />
+            <e p="Curves.cs" t="Include" />
+            <e p="CurvesUtility.cs" t="Include" />
+            <e p="Environment" t="Include">
+              <e p="DoorController.cs" t="Include" />
+              <e p="LightTrembler.cs" t="Include" />
+              <e p="ProjectorColorBlender.cs" t="Include" />
+              <e p="Rotator.cs" t="Include" />
             </e>
-            <e p="ProjectileTrap.cs" t="Include" />
-            <e p="SpellBase.cs" t="Include" />
-            <e p="Trap.cs" t="Include" />
-            <e p="TrapDamageSpell.cs" t="Include" />
-          </e>
-          <e p="StatsAndCharacteristics" t="Include">
-            <e p="CharacteristicBase.cs" t="Include" />
-            <e p="CharacteristicHolderBase.cs" t="Include" />
-            <e p="CharacteristicRegeneratable.cs" t="Include" />
-            <e p="Enums" t="Include">
-              <e p="CharacteristicType.cs" t="Include" />
+            <e p="ManagersAndControllers" t="Include">
+              <e p="GameManager.cs" t="Include" />
+              <e p="InputManager.cs" t="Include" />
             </e>
-            <e p="Handlers" t="Include">
-              <e p="CharacteristicCurrentChanged.cs" t="Include" />
-              <e p="CharacteristicMinMaxChanged.cs" t="Include" />
+            <e p="Player" t="Include">
+              <e p="AnimationController.cs" t="Include" />
+              <e p="AnimatorParameters.cs" t="Include" />
+              <e p="CameraCollision.cs" t="Include" />
+              <e p="CameraFollow.cs" t="Include" />
+              <e p="CharacterBase.cs" t="Include" />
+              <e p="CharacterController.cs" t="Include" />
+              <e p="CharacterState.cs" t="Include" />
+              <e p="CharacterStateBase.cs" t="Include" />
+              <e p="Enums" t="Include">
+                <e p="LocomotionType.cs" t="Include" />
+              </e>
+              <e p="MovementSettings.cs" t="Include" />
+              <e p="MoveSettings.cs" t="Include" />
+              <e p="PlayerShooter.cs" t="Include" />
+              <e p="ThirdPersonAnimator.cs" t="Include" />
+              <e p="ThirdPersonController.cs" t="Include" />
+              <e p="ThirdPersonInput.cs" t="Include" />
+              <e p="ThirdPersonMotor.cs" t="Include" />
             </e>
-          </e>
-          <e p="Temp" t="Include">
-            <e p="EnemySpawner.cs" t="Include" />
-            <e p="SpawnPointHolder.cs" t="Include" />
-          </e>
-          <e p="UI" t="Include">
-            <e p="SimpleStatsDisplay.cs" t="Include" />
+            <e p="Potions" t="Include">
+              <e p="HealingVial.cs" t="Include" />
+            </e>
+            <e p="settings" t="Include">
+              <e p="CharacterMoveSettings.cs" t="Include" />
+            </e>
+            <e p="Spells" t="Include">
+              <e p="AoeDotTrap.cs" t="Include" />
+              <e p="AOESpell.cs" t="Include" />
+              <e p="Enums" t="Include">
+                <e p="SpellEffectType.cs" t="Include" />
+                <e p="SpellType.cs" t="Include" />
+              </e>
+              <e p="MagicMissile.cs" t="Include" />
+              <e p="Projectile.cs" t="Include" />
+              <e p="ProjectileTrap.cs" t="Include" />
+              <e p="SpellBase.cs" t="Include" />
+              <e p="Trap.cs" t="Include" />
+              <e p="TrapDamageSpell.cs" t="Include" />
+            </e>
+            <e p="StatsAndCharacteristics" t="Include">
+              <e p="CharacteristicBase.cs" t="Include" />
+              <e p="CharacteristicHolderBase.cs" t="Include" />
+              <e p="CharacteristicRegeneratable.cs" t="Include" />
+              <e p="Enums" t="Include">
+                <e p="CharacteristicType.cs" t="Include" />
+              </e>
+              <e p="Handlers" t="Include">
+                <e p="CharacteristicCurrentChanged.cs" t="Include" />
+                <e p="CharacteristicMinMaxChanged.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Temp" t="Include">
+              <e p="EnemySpawner.cs" t="Include" />
+              <e p="ExplosionMine.cs" t="Include" />
+              <e p="SpawnPointHolder.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="SimpleStatsDisplay.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Shaders" t="Include">
@@ -777,7 +830,6 @@
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Sirenix.OdinInspector.CompatibilityLayer.csproj" t="IncludeRecursive" />
       <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj" t="IncludeRecursive" />
-      <e p="SushkovDungeon.csproj" t="IncludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
       <e p="UMotionSourceApplication.csproj" t="IncludeRecursive" />
       <e p="UMotionSourceEditor.csproj" t="IncludeRecursive" />

@@ -17,6 +17,6 @@ MonoBehaviour:
     m_Bits: 9437184
   walkForwardSpeed: 3
   walkStrafeSpeed: 3
-  runForwardSpeed: 10
+  runForwardSpeed: 7
   runStrafeSpeed: 5
-  jumpPower: 70
+  jumpPower: 3

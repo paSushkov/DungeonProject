@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2897045570731391045}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 6.9442596, y: 10.98, z: 13.2089615}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -51,7 +51,7 @@ Projector:
   m_Material: {fileID: 2100000, guid: 380ca5061a2e132468a6a02edc419ed8, type: 2}
   m_IgnoreLayers:
     serializedVersion: 2
-    m_Bits: 618661687
+    m_Bits: 614467383
 --- !u!114 &1869841961278787147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64,12 +64,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a3fbe62d0fb39041825734c47efb97f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _projector: {fileID: 0}
   colors:
   - {r: 1, g: 0, b: 0, a: 1}
   - {r: 0.45882353, g: 0, b: 0, a: 1}
   - {r: 0.26666668, g: 0, b: 0, a: 0}
-  _speed: 1
+  speed: 1
 --- !u!114 &9217586530425753011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,7 +81,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fa81355a1f424e4badc654edab84752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xSpeed: 5
-  ySpeed: 0
+  xSpeed: 0
+  ySpeed: 5
   zSpeed: 0
-  isUsingGlobal: 1
+  isUsingGlobal: 0
